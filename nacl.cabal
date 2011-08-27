@@ -15,6 +15,8 @@ Build-type:          Simple
 Cabal-version:       >=1.8
 
 Library
+  Build-depends:     base >= 4
   Exposed-modules:   Codec.Nacl
   Build-tools:       c2hs
+  Extra-libraries:   nacl
   
