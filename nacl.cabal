@@ -1,0 +1,20 @@
+Name:                nacl
+Version:             0.1
+Synopsis:            Haskell bindings for the CACE Networking and Cryptography Library
+Description:         
+  NaCl (pronounced "salt") is a new easy-to-use high-speed
+  software library for network communication, encryption, decryption, signatures,
+  etc. NaCl's goal is to provide all of the core operations needed to build
+  higher-level cryptographic tools.
+License:             BSD3
+License-file:        LICENSE
+Author:              Michael Stone
+Maintainer:          michael@laptop.org
+Category:            Codec
+Build-type:          Simple
+Cabal-version:       >=1.8
+
+Library
+  Exposed-modules:   Codec.Nacl
+  Build-tools:       c2hs
+  
